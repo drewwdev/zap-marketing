@@ -1,0 +1,69 @@
+@import "../../sass/variables.scss";
+
+.navbar {
+  padding: 50px 0;
+  background-color: $blue;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: $white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: $poppins;
+  position: relative;
+
+  &:before {
+    content: "";
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    border: 2px solid $white;
+  }
+}
+
+.list {
+  margin: 0 0 0 150px;
+  padding: 0;
+  display: flex;
+}
+
+.list-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: $poppins;
+
+  a {
+    display: block;
+    padding: 10px;
+    color: $white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.cta {
+  color: $blue;
+  font-size: 18px;
+  padding: 13px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: $white;
+  font-family: $poppins;
+}

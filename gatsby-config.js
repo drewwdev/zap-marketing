@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Zap Marketing Tutorial",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-sass"],
 };
