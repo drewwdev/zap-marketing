@@ -24,6 +24,7 @@
   text-decoration: none;
   font-family: $poppins;
   position: relative;
+  text-transform: lowercase;
 
   &:before {
     content: "";
@@ -54,6 +55,7 @@
     color: $white;
     font-size: 16px;
     text-decoration: none;
+    text-transform: lowercase;
   }
 }
 
@@ -66,4 +68,5 @@
   text-decoration: none;
   background-color: $white;
   font-family: $poppins;
+  text-transform: lowercase;
 }
